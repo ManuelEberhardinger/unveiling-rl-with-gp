@@ -1,6 +1,7 @@
 # Unveiling the Decision-Making Process in Reinforcement Learning with Genetic Programming
 
 Code for the paper: <https://arxiv.org/abs/2407.14714>
+Accepted at: [The Fifteenth International Conference on Swarm Intelligence (ICSI'2024)](https://iasei.org/icsi2024/)
 
 First install requirements: `pip install -r requirements.txt`
 
