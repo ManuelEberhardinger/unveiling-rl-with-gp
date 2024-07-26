@@ -1,0 +1,8 @@
+stitch-core==0.1.25
+wandb
+numpy==1.26.4
+gym==0.15.7
+gym-minigrid==1.0.1
+pandas==1.5.3
+scipy==1.14.0
+graphviz==0.11
