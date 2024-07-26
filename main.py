@@ -20,7 +20,7 @@ parser.add_argument('--tournament_size', type=int, default=50,
                     help='Number of trees in tournament selection')
 parser.add_argument('--pop_size', type=int, default=1000,
                     help='Population size')
-parser.add_argument('--compress', action='store_true', default=False)
+parser.add_argument('--compress', action='store_true', default=True)
 parser.add_argument('--calc_stats', action='store_true', default=False)
 parser.add_argument('--threshold', type=float, default=0.98,
                     help='Start threshold to increase sequence length')

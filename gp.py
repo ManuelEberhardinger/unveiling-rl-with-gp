@@ -199,7 +199,7 @@ class GPAlgorithm():
 
             curr_var = np.var(
                 list(self.calc_distribution(population).values()))
-            wandb_log = {"best_of_run_error": best_of_run_error, "population_error":
+            wandb_log = {"best_of_run_error": best_of_run_error, "population_accuracy":
                          pop_err[0]/pop_err[1], "seq_length": current_iter, "threshold": threshold, "variance": curr_var,
                          "avg_size": avg_size, "good programs": len(programs), "runtime": time.time() - start_time}
 
