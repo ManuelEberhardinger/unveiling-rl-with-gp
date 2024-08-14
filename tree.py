@@ -5,6 +5,7 @@ from copy import deepcopy
 import parser
 from scipy.special import softmax
 from collections import defaultdict
+from typing import List
 
 
 class DepthExceededException(Exception):
